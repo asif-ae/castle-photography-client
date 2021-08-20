@@ -1,0 +1,8 @@
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+.swiper-pagination {
+  text-align: right !important;
+}

@@ -1,9 +1,16 @@
 import React, { Fragment } from 'react';
+import Gallery from '../../Shared/Gallery/Gallery';
+import HeaderTop from '../../Shared/HeaderTop/HeaderTop';
+import Navbar from '../../Shared/Navbar/Navbar';
 
 const Home = () => {
   return (
     <Fragment>
-      <h1>Home</h1>
+      <HeaderTop />
+      <Navbar />
+      <main>
+        <Gallery />
+      </main>
     </Fragment>
   );
 };
